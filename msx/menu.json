@@ -2,7 +2,7 @@
     "headline": "Emma_TV Content",
     "menu": [{
             "icon": "cast",
-            "label": "My Example Audios",
+            "label": "Cast Receivers",
             "data": {
                 "type": "pages",
                 "template": {                   
@@ -12,16 +12,16 @@
                     "color": "msx-glass"
                 },
                 "items": [{
+                        "title": "VEWD App Store",
+                        "action": "link:http://vewd.webvideocaster.com/"
+                    }, {
                         "title": "Web Browser Receiver",
                         "action": "link:http://www.cast2tv.io/"
                     }, {
-                        "title": "TVs with the VEWD App Store",
-                        "action": "link:http://vewd.webvideocaster.com/"
-                    }, {
-                        "title": "TVs running the Foxxum platform",
+                        "title": "Foxxum platform",
                         "action": "link:http://foxxum.webvideocaster.com/"
                     }, {
-                        "title": "TVs running the Vidaa platform",
+                        "title": "Vidaa platform",
                         "action": "link:http://vidaa.webvideocaster.com/"
                     }]
             }
