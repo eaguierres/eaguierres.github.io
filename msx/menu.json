@@ -1,70 +1,28 @@
 {
-    "headline": "My Example Content",
+    "headline": "Emma_TV Content",
     "menu": [{
-            "icon": "movie",
-            "label": "My Example Movies",
-            "data": {
-                "type": "pages",               
-                "template": {                  
-                    "type": "separate",
-                    "layout": "0,0,2,4",
-                    "icon": "msx-white-soft:movie",
-                    "color": "msx-glass"                    
-                },
-                "items": [{
-                        "title": "Video 1",                        
-                        "action": "video:http://msx.benzac.de/media/video1.mp4"
-                    }, {
-                        "title": "Video 2",                       
-                        "action": "video:http://msx.benzac.de/media/video2.mp4"
-                    }, {
-                        "title": "Video 3",                       
-                        "action": "video:http://msx.benzac.de/media/video3.mp4"
-                    }]
-            }
-        }, {
-            "icon": "music-note",
+            "icon": "cast",
             "label": "My Example Audios",
             "data": {
                 "type": "pages",
                 "template": {                   
                     "type": "separate",
                     "layout": "0,0,2,3",
-                    "icon": "msx-white-soft:music-note",
+                    "icon": "msx-white-soft:cast",
                     "color": "msx-glass"
                 },
                 "items": [{
-                        "title": "Audio 1",
-                        "action": "audio:http://msx.benzac.de/media/audio1.mp3"
-                    }, {
-                        "title": "Audio 2",                          
-                        "action": "audio:http://msx.benzac.de/media/audio2.mp3"
-                    }, {
-                        "title": "Link 1",                          
+                        "title": "Web Browser Receiver",
                         "action": "link:http://www.cast2tv.io/"
                     }, {
-                        "title": "Audio 3",
-                        "action": "audio:http://msx.benzac.de/media/audio3.mp3"
-                    }]
-            }
-        }, {
-            "icon": "image",
-            "label": "My Example Images",
-            "data": {
-                "type": "pages",
-                "template": {
-                    "type": "default",
-                    "layout": "0,0,3,2",
-                    "color": "msx-glass",
-                    "imageFiller": "cover",
-                    "action": "image:context"
-                },
-                "items": [{
-                        "image": "http://msx.benzac.de/img/bg1.jpg"                      
+                        "title": "TVs with the VEWD App Store",
+                        "action": "link:http://vewd.webvideocaster.com/"
                     }, {
-                        "image": "http://msx.benzac.de/img/bg2.jpg"                       
+                        "title": "TVs running the Foxxum platform",
+                        "action": "link:http://foxxum.webvideocaster.com/"
                     }, {
-                        "image": "http://msx.benzac.de/img/bg3.jpg"                       
+                        "title": "TVs running the Vidaa platform",
+                        "action": "link:http://vidaa.webvideocaster.com/"
                     }]
             }
         }]

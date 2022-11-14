@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+    <title>Chromecast Custom Receiver</title>
+</head>
+<body>
+    <video id='media' />
+    <script src="http://www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
+    <script>
+        window.onload = function() {
+            window.mediaElement = document.getElementById('media');
+            window.mediaManager = new cast.receiver.MediaManager(window.mediaElement);
+
+            window.castReceiverManager = cast.receiver.CastReceiverManager.getInstance();
+
+            window.castMessageBus = window.castReceiverManager.getCastMessageBus("urn:x-cast:com.example.MyApp");
+            window.castMessageBus.addEventListener("message", function(message) {
+                window.castMessageBus.broadcast("Got your message");
+            });
+
+            window.castReceiverManager.start();
+        };
+    </script>
+</body>
+</html>

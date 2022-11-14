@@ -1,5 +1,5 @@
 {
-    "name": "My Example Content",
+    "name": "Emma_TV Content",
     "version": "1.0.0",
     "parameter": "menu:{PREFIX}{SERVER}/msx/menu.json"
 }
