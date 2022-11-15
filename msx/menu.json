@@ -34,7 +34,7 @@
                     "type": "default",
                     "layout": "0,0,3,2",
                     "color": "msx-glass",
-                    "imageFiller": "cover",
+                    "imageFiller": "cover"
                 },
                 "items": [{
                         "title": "Opera addons",
