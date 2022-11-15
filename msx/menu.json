@@ -25,5 +25,30 @@
                         "action": "link:http://vidaa.webvideocaster.com/"
                     }]
             }
+        }, {
+            "icon": "storm",
+            "label": "For tessting",
+            "data": {
+                "type": "pages",
+                "template": {
+                    "type": "default",
+                    "layout": "0,0,3,2",
+                    "color": "msx-glass",
+                    "imageFiller": "cover",
+                },
+                "items": [{
+                        "title": "Opera addons",
+                        "action": "link:https://addons.opera.com/es/extensions/"
+                    }, {
+                        "title": "Web Browser Receiver",
+                        "action": "link:https://msx.benzac.de/dist/lg.ipk"
+                    }, {
+                        "title": "Opera 01",
+                        "action": "link:opera://about"
+                    }, {
+                        "title": "Opera 02",
+                        "action": "link:opera://config"
+                    }]
+            }
         }]
 }
