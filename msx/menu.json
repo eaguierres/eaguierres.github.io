@@ -40,8 +40,8 @@
                         "title": "Opera addons",
                         "action": "link:https://addons.opera.com/es/extensions/"
                     }, {
-                        "title": "Web Browser Receiver",
-                        "action": "link:https://msx.benzac.de/dist/lg.ipk"
+                        "title": "IPTV Player",
+                        "action": "link:http://widget.ottplayer.tv"
                     }, {
                         "title": "Opera 01",
                         "action": "link:opera://about"
