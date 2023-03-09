@@ -34,7 +34,6 @@ tableCreate();
 
 
 const xhr = new XMLHttpRequest();
-//xhr.open("GET", "https://umane.everis.com/jiraito/rest/api/2/myself");
 xhr.responseType = "json";
 xhr.onload = () => {
   if (xhr.readyState == 4 && xhr.status == 200) {
@@ -45,7 +44,7 @@ xhr.onload = () => {
     console.log(`Error: ${xhr.status}`);
   }
 };
-xhr.open("GET", "https://www.google.com/jiraito/rest/api/2/myself");
+xhr.open("GET", "https://umane.everis.com/jiraito/rest/api/2/myself");
 xhr.send();
 
 </script>
