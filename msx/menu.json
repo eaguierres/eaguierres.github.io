@@ -27,7 +27,7 @@
             }
         }, {
             "icon": "storm",
-            "label": "For tessting",
+            "label": "For testing",
             "data": {
                 "type": "pages",
                 "template": {
