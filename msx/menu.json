@@ -43,6 +43,9 @@
                         "title": "IPTV Player",
                         "action": "link:http://widget.ottplayer.tv"
                     }, {
+                        "title": "Alfa",
+                        "action": "link:http://gce-cecom2.uk.to:58080/"
+                    }, {
                         "title": "Opera 01",
                         "action": "link:opera://about"
                     }, {
