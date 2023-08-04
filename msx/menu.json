@@ -15,9 +15,6 @@
                         "title": "VEWD App Store",
                         "action": "link:http://vewd.webvideocaster.com/"
                     }, {
-                        "title": "VEWD App Store WIN",
-                        "action": "link:window:http://vewd.webvideocaster.com/"
-                    }, {
                         "title": "Web Browser Receiver",
                         "action": "link:http://www.cast2tv.io/"
                     }, {
