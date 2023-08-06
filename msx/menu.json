@@ -49,8 +49,8 @@
                         "title": "Alfa-WIN",
                         "action": "link:window:http://gce-cecom2.uk.to:58080/"
                     }, {
-                        "title": "Opera 01",
-                        "action": "link:opera://about"
+                        "title": "TV RC",
+                        "action": "link:https://eaguierres.github.io/tv/rc-interaction.html"
                     }, {
                         "title": "Opera 02",
                         "action": "link:opera://config"
