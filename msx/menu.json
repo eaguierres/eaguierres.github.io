@@ -52,7 +52,13 @@
                         "title": "TV RC",
                         "action": "link:https://eaguierres.github.io/tv/rc-interaction.html"
                     }, {
-                        "title": "Opera 02",
+                        "title": "About Firefox",
+                        "action": "link:about:about"
+                    }, {
+                        "title": "About Chrome",
+                        "action": "link:chrome://about"
+                    }, {
+                        "title": "About Opera",
                         "action": "link:opera://config"
                     }]
             }
