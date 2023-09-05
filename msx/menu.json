@@ -46,8 +46,8 @@
                         "title": "Alfa",
                         "action": "link:http://gce-cecom2.uk.to:58080/"
                     }, {
-                        "title": "Alfa-WIN",
-                        "action": "link:window:http://gce-cecom2.uk.to:58080/"
+                        "title": "Key.js",
+                        "action": "link:https://keyjs.dev/es/"
                     }, {
                         "title": "TV RC",
                         "action": "link:https://eaguierres.github.io/tv/rc-interaction.html"
